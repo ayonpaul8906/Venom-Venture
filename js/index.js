@@ -162,7 +162,15 @@ function handleSwipeGesture() {
         }
     }
 }
-document.addEventListener('touchmove', function(e) {
-    e.preventDefault();  // Prevent the background from moving
-}, { passive: false });  // Ensure passive is false to allow preventDefault
+
+// Disable scrolling on touchmove for the entire body
+document.body.addEventListener('touchmove', function(e) {
+    e.preventDefault(); // Prevent default scroll behavior
+}, { passive: false });
+
+// Disable scrolling specifically for the game board
+board.addEventListener('touchmove', function(e) {
+    e.preventDefault();  // Prevent background from scrolling
+}, { passive: false });
+
 
