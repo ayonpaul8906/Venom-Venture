@@ -162,3 +162,7 @@ function handleSwipeGesture() {
         }
     }
 }
+document.addEventListener('touchmove', function(e) {
+    e.preventDefault();  // Prevent the background from moving
+}, { passive: false });  // Ensure passive is false to allow preventDefault
+
