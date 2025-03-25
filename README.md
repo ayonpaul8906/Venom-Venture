@@ -40,7 +40,7 @@ Visit [Venom Venture](https://ayonpaul8906.github.io/Venom-Venture/)
 
 ## 📋 How to Play
 
-1. 🌐 Open the [live demo] (https://ayonpaul8906.github.io/Venom-Venture/).
+1. 🌐 Open the [live demo](https://ayonpaul8906.github.io/Venom-Venture/).
 2. 📱 Play the game on any device with smooth controls.
 3. 🐍 Navigate the snake and score points by avoiding obstacles.
 ## 🤝 Contributing
