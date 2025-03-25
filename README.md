@@ -18,7 +18,6 @@ Venom Venture, also known as SnakeMania, is a thrilling, interactive gaming expe
 ## 🛠️ Technologies Used
 
 🌐 Frontend:
-
 - **HTML5:** For a solid structure and optimized performance.
 - **CSS3:** For visually engaging and responsive styling.
 - **JavaScript:** To power the game's interactive elements.
