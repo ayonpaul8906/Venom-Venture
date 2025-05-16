@@ -31,6 +31,8 @@ Venom Venture, also known as SnakeMania, is a thrilling, interactive gaming expe
 ## 📸 Screenshots
 
 ![App Screenshot](https://i.postimg.cc/658mRg6D/snake.png)
+![Mobile View](https://github.com/user-attachments/assets/0b8e1bb0-5b22-4044-b788-e21cbb14fbb5)
+
 
 
 ## 🚀 Live Demo
