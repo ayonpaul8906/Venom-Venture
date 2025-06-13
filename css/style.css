@@ -1,64 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
-* {
+*{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
-.body {
-    background: url("../snake.jpg");
+.body{
+    background: url("../snake.jpg"); 
     min-height: 100vh;
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    flex-direction: column;
 }
 
-#scoreBox, #hiscoreBox {
+#scoreBox{
     position: absolute;
-    left: 20px;
-    font-size: 30px;
+    top: 9px;
+    left: 0;
+    font-size: 39px;
     font-weight: bold;
     font-family: 'New Tegomin', serif;
-    color: #222;
 }
 
-#scoreBox {
-    top: 20px;
-}
-
-#hiscoreBox {
-    top: 60px;
-}
-
-#controls {
+#hiscoreBox{
     position: absolute;
-    top: 100px;
-    left: 20px;
-    display: flex;
-    gap: 12px;
-}
-
-#controls button {
+    top: 59px;
+    left: 0;
+    font-size: 39px;
+    font-weight: bold;
     font-family: 'New Tegomin', serif;
-    font-size: 20px;
-    padding: 8px 18px;
-    border: none;
-    border-radius: 8px;
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
-#controls button:hover {
-    background-color: #388e3c;
-}
-
-#board {
+#board{
     background: linear-gradient(rgb(170, 236, 170), rgb(236, 236, 167));
     width: 90vmin;
     height: 92vmin;
@@ -68,35 +42,37 @@
     grid-template-columns: repeat(18, 1fr);
 }
 
-.head {
+.head{
     background: linear-gradient(rgb(240, 124, 124), rgb(228, 228, 129));
     border: 2px solid rgb(34, 4, 34); 
     transform: scale(1.02);
     border-radius: 9px;
 }
 
-.snake {
+.snake{
     background-color: purple;
     border: .25vmin solid white;
     border-radius: 12px;
 }
 
-.food {
+.food{
     background: linear-gradient(red, purple);
     border: .25vmin solid black;
     border-radius: 8px;
 }
 
 @media (min-width:300px) and (max-width:1000px){
-    #board {
+
+    #board{
         background-image: url(../snake2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
 
-    .body {
+    .body{
         background-image: none;
         background-color: rgba(155,184,6,255);
+
     }
 }
