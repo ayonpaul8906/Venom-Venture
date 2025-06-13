@@ -76,29 +76,3 @@
 
     }
 }
-
-#controls {
-    position: absolute;
-    top: 120px;
-    left: 0;
-    display: flex;
-    gap: 10px;
-    padding: 10px;
-}
-
-#controls button {
-    font-family: 'New Tegomin', serif;
-    font-size: 20px;
-    padding: 5px 15px;
-    border: none;
-    border-radius: 8px;
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-#controls button:hover {
-    background-color: #45a049;
-}
-
