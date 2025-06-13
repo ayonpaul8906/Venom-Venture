@@ -173,29 +173,3 @@ board.addEventListener('touchmove', function(e) {
     e.preventDefault();  // Prevent background from scrolling
 }, { passive: false });
 
-let isPaused = false;
-
-const playBtn = document.getElementById('playBtn');
-const pauseBtn = document.getElementById('pauseBtn');
-
-playBtn.addEventListener('click', () => {
-    if (isPaused) {
-        isPaused = false;
-        musicSound.play();
-        window.requestAnimationFrame(main);
-    }
-});
-
-pauseBtn.addEventListener('click', () => {
-    isPaused = true;
-    musicSound.pause();
-});
-
-function main(ctime) {
-    if (isPaused) return;
-    window.requestAnimationFrame(main);
-    if ((ctime - lastPaintTime) / 1000 < 1 / speed) return;
-    lastPaintTime = ctime;
-    gameEngine();
-}
-
